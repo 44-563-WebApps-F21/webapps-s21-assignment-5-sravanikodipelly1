@@ -2,6 +2,17 @@
 <html lang="en">
 <head>
   <title>Lab 05 on bootstrap</title>
+  <style>
+    tr:nth-child(even)
+    {
+      background-color: rgb(44, 44, 44);
+      color:cornflowerblue;
+    }
+    td:hover
+    {
+      color: red;
+    }
+  </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -50,7 +61,55 @@
         <img src="elephant.jpg"class="img-thumbnail"alt="Elephant image"height="360"width="360">
         <img src="Donkey.jpg"class="img-thumbnail"alt="Donkey image"height="360"width="360">
         <img src="kangaroo.jpg"class="img-thumbnail"alt="Kangaroo image"height="360"width="360">
-      </div>
+      </div><br>
+      <table class="table" style="border: 1px solid ; color: black;">
+        <caption style="color: gray;font-family:  monospace;">table of cars and cities</caption>
+        <thead style="background-color: blanchedalmond;">
+        <tr>
+          <th scope="col"><b>#</b></th>
+          <th scope="col"><b>Animal</b></th>
+          <th scope="col"><b>cars</b></th>
+          <th scope="col"><b>cities</b></th>
+        </tr>
+        <tr>
+          <td scope="row">k</td>
+          <td scope="row">kangaroo</td>
+          <td scope="row">kia</td>
+          <td scope="row">Kansas</td>
+        </tr>
+        <tr>
+          <td scope="row">o</td>
+          <td scope="row">Ostrich</td>
+          <td scope="row">Oettinger</td>
+          <td scope="row">Omaha</td>
+        </tr>
+        <tr>
+          <td scope="row">d</td>
+          <td scope="row">Donkey</td>
+          <td scope="row">Daimler</td>
+          <td scope="row">Denton</td>
+        </tr>
+        <tr>
+          <td scope="row">i</td>
+          <td scope="row">Iguana</td>
+          <td scope="row">Impul</td>
+          <td scope="row">Indiana</td>
+        </tr>
+        <tr>
+          <td scope="row">p</td>
+          <td scope="row">pig</td>
+          <td scope="row">Polaris</td>
+          <td scope="row">Portland</td>
+        </tr>
+        <tr>
+          <td scope="row">e</td>
+          <td scope="row">elephant</td>
+          <td scope="row">Elio</td>
+          <td scope="row">EI Paso</td>
+        </tr>
+        </thead>
+
+      </table>
 
 </body>
 </html>
